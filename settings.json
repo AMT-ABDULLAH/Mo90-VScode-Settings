@@ -96,6 +96,7 @@
                 "editor.action.commentLine"
             ]
         },
+        // to switch between editor tabs
         {
             "before": [
                 "leader",
@@ -114,6 +115,7 @@
                 "workbench.action.previousEditor"
             ],
         },
+        // to center everytime i use pg up and dn
         {
             "before": [
                 "c-d"
@@ -168,6 +170,7 @@
                 "editor.action.indentLines"
             ]
         },
+        // for comments in visual mode 
         {
             "before": [
                 "leader",

@@ -1,5 +1,6 @@
-globalStorage
-History
-snippets
-workspaceStorage
 
+*
+!Keybindings.json
+!.gitignore
+!Settings.json
+!Readme.md
