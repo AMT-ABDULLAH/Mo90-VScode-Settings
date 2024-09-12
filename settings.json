@@ -60,6 +60,11 @@
         },
         //navigation and file tree
         {
+            "before": ["leader","e"],
+            "commands":["workbench.files.action.focusFilesExplorer"]
+
+        },
+        {
             "before": [
                 "leader",
                 "f"
@@ -150,5 +155,6 @@
                 "editor.action.commentLine"
             ]
         },
-    ]
+    ],
+    "workbench.activityBar.location": "hidden"
 }
