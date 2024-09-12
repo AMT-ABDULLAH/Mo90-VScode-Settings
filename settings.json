@@ -1,0 +1,31 @@
+{
+    "git.ignoreMissingGitWarning": true,
+    "workbench.iconTheme": "vscode-icons",
+    "vsicons.dontShowNewVersionMessage": true,
+    "background.windowBackgrounds": [
+        "d:/hatsune/wallpaper/**"
+    ],
+    "hediet.vscode-drawio.resizeImages": null,
+    "editor.cursorBlinking": "solid",
+    "background.backgroundOpacity": [
+        0.95,
+        0.1,
+        0.1,
+        0.1
+    ],
+    "editor.fontFamily": "'JetBrains Mono',Consolas, 'Courier New', monospace",
+    "editor.fontLigatures": true,
+    "editor.minimap.enabled": false,
+    "cmake.showOptionsMovedNotification": false,
+    "workbench.editorAssociations": {
+        "{git,gitlens}:/**/*.{md,csv,svg}": "default"
+    },
+    "remote.autoForwardPortsSource": "hybrid",
+    "git.openRepositoryInParentFolders": "always",
+    "background.useInvertedOpacity": true,
+    "breadcrumbs.enabled": false,
+    "editor.renderWhitespace": "all",
+    "workbench.editor.showTabs": "single",
+    "workbench.colorTheme": "paddy-ultramarine",
+    "editor.lineNumbers": "relative"
+}
