@@ -60,9 +60,13 @@
         },
         //navigation and file tree
         {
-            "before": ["leader","e"],
-            "commands":["workbench.files.action.focusFilesExplorer"]
-
+            "before": [
+                "leader",
+                "e"
+            ],
+            "commands": [
+                "workbench.files.action.focusFilesExplorer"
+            ]
         },
         {
             "before": [
@@ -110,6 +114,24 @@
                 "workbench.action.previousEditor"
             ],
         },
+        {
+            "before": [
+                "c-d"
+            ],
+            "after": [
+                "M",
+                "c-d"
+            ]
+        },
+        {
+            "before": [
+                "c-u"
+            ],
+            "after": [
+                "M",
+                "c-u",
+            ]
+        },
     ],
     "vim.visualModeKeyBindings": [
         //move selected lines while being in visual mode
@@ -155,6 +177,5 @@
                 "editor.action.commentLine"
             ]
         },
-    ],
-    "workbench.activityBar.location": "hidden"
+    ]
 }
