@@ -151,5 +151,6 @@
   "[sass][javascript]": {
     "editor.tabSize": 2
   },
-  "editor.lineHeight": 1.75
+  "editor.lineHeight": 1.75,
+  "workbench.activityBar.location": "hidden"
 }
