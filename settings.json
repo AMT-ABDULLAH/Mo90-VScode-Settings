@@ -18,12 +18,16 @@
   "background.useInvertedOpacity": true,
   "breadcrumbs.enabled": false,
   "editor.renderWhitespace": "all",
-  "workbench.colorTheme": "paddy-ultramarine",
+  "workbench.colorTheme": "pink theme",
   "editor.lineNumbers": "relative",
   "vim.leader": "<Space>",
   "vim.hlsearch": true,
   "vim.normalModeKeyBindingsNonRecursive": [
     //nice to have
+    {
+      "before": ["leader", "s"],
+      "commands": [{ "command": "editor.action.showDefinitionPreviewHover" }]
+    },
     {
       "before": ["leader", "w"],
       "commands": [":w!"]
@@ -152,5 +156,11 @@
     "editor.tabSize": 2
   },
   "editor.lineHeight": 1.75,
-  "workbench.activityBar.location": "hidden"
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "liveServer.settings.CustomBrowser": "chrome",
+  "[markdown]": {
+    "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+  }
 }
